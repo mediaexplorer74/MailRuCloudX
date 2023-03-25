@@ -88,7 +88,7 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MailRuCloudApi\MailRuCloudX.csproj">
+    <ProjectReference Include="..\MailRuCloudX\MailRuCloudX.csproj">
       <Project>{E0DCE423-A416-43FD-92E3-6C9FBF2772F7}</Project>
       <Name>MailRuCloudX</Name>
     </ProjectReference>

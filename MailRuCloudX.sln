@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailRuCloudX.Android", "Mai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailRuCloudX.iOS", "MailRuCloudX\MailRuCloudX.iOS\MailRuCloudX.iOS.csproj", "{AA7C5880-A5D1-46E9-9CCE-B9B08ED9904C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailRuCloudX", "MailRuCloudX\MailRuCloudX\MailRuCloudX.csproj", "{E0DCE423-A416-43FD-92E3-6C9FBF2772F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailRuCloudX", "MailRuCloudX\MailRuCloudX\MailRuCloudX.csproj", "{E0DCE423-A416-43FD-92E3-6C9FBF2772F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailRuCloudNet", "MailRuCloudX\MailRuCloudNet\MailRuCloudNet.csproj", "{241B9D11-8878-461F-81FA-6A90C0222F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,30 @@ Global
 		{E0DCE423-A416-43FD-92E3-6C9FBF2772F7}.Release|x86.ActiveCfg = Release|Any CPU
 		{E0DCE423-A416-43FD-92E3-6C9FBF2772F7}.Release|x86.Build.0 = Release|Any CPU
 		{E0DCE423-A416-43FD-92E3-6C9FBF2772F7}.Release|x86.Deploy.0 = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|ARM.Build.0 = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|x64.Build.0 = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Debug|x86.Build.0 = Debug|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|ARM.Build.0 = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|iPhone.Build.0 = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|x64.ActiveCfg = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|x64.Build.0 = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|x86.ActiveCfg = Release|Any CPU
+		{241B9D11-8878-461F-81FA-6A90C0222F6D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

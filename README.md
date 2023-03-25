@@ -6,6 +6,9 @@ MailRuCloud (cloud.mail.ru) simple Xamarin Forms sample app (template). Штук
 
 RU only. Только для России.
 
+## Screenshots
+![Screenshot1](Images/shot1.png)
+![Screenshot2](Images/shot2.png)
 
 ## Current Status
 - New version (or "iteration") with minimal improvements ("null value & exceptions" bug detected & fixed)

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Erast Korolev</Authors>
+    <Copyright>Erast Korolev</Copyright>
+    <Version>1.0.4</Version>
+    <Description>Unofficial .NET Core version of library to working with the cloud.mail.ru API</Description>
+    <RepositoryUrl>https://github.com/erastmorgan/MailRuCloudClientDotNETCore</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/erastmorgan/MailRuCloudClientDotNETCore</PackageProjectUrl>
+    <PackageReleaseNotes>- DTO of disk usage request is changed</PackageReleaseNotes>
+    <PackageTags>cloud.mail.ru sdk mail.ru client</PackageTags>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\lib\</OutputPath>
+    <DocumentationFile>..\lib\netcoreapp2.0\MailRuCloudClient.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

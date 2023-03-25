@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="F5F512FE-2878-42AE-9E0E-C5BCC135A592"
-    Publisher="CN=D2212AFE-EE44-461D-ACCB-C10257142CA6"
+    Name="ME.MailRuCloudX1"
+    Publisher="CN=Admin"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>MailRuCloudApi.UWP</DisplayName>
-    <PublisherDisplayName>D2212AFE-EE44-461D-ACCB-C10257142CA6</PublisherDisplayName>
+    <PublisherDisplayName>mediaexplorer</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -45,11 +45,22 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/>
+          <uap:Rotation Preference="portrait"/>
+          <uap:Rotation Preference="landscapeFlipped"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
 
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="videosLibrary"/>
+    <uap:Capability Name="picturesLibrary"/>
+    <uap:Capability Name="musicLibrary"/>
+    <uap:Capability Name="removableStorage"/>
+    <Capability Name="privateNetworkClientServer"/>
+    <DeviceCapability Name="lowLevel"/>
+    <DeviceCapability Name="location"/>
   </Capabilities>
 </Package>
